@@ -2,9 +2,9 @@
 integration of inTelIInput with jetformbuilder
 
 # Installation
-Please make sure you're using jetformbuilder https://jetformbuilder.com
-Create form with a field with name and class *phone* (avoid using tel type)
-Insert the following code in your theme functions.php (this is about enqueue libs, our custom code and a filter for jetformbuilder)
+* Please make sure you're using jetformbuilder https://jetformbuilder.com
+* Create form with a field with name and class *phone* (avoid using tel type)
+* Insert the following code in your theme functions.php (this is about enqueue libs, our custom code and a filter for jetformbuilder)
 ```
 function register_phone_field_assets() {
     wp_enqueue_style(
@@ -42,5 +42,5 @@ add_filter('jet-form-builder/form-handler/fields-data-after-check', function($da
 });
 ```
 
-Test!
+* Test!
 
